@@ -18,6 +18,10 @@
 
 ^https:\/\/duckduckgo.com\/\?q=wiki\+([^&]+).+ https://en.wikipedia.org/wiki/$1 302
 
+^https:\/\/duckduckgo.com\/\?q=epub\+([^&]+).+ http://cn.epubee.com/books/?s=$1 302
+
+^https:\/\/duckduckgo.com\/\?q=ebook\+([^&]+).+ http://gen.lib.rus.ec/search.php?req=$1 302
+
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 
