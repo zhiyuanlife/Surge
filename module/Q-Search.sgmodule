@@ -26,6 +26,13 @@
 
 ^https:\/\/duckduckgo.com\/\?q=bt\+([^&]+).+ https://biedian.me/search?source=BTGG&k=$1&s=default&p=1 302
 
+^https:\/\/duckduckgo.com\/\?q=dbapp\+([^&]+).+ douban:///search?q=$1 302
+
+
+
+
+
+
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 
