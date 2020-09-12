@@ -28,8 +28,7 @@
 
 ^https:\/\/duckduckgo.com\/\?q=dbapp\+([^&]+).+ douban:///search?q=$1 302
 
-
-
+^https:\/\/duckduckgo.com\/\?q=train\+([^&]+).+ http://touch.qunar.com/h5/train/trainDetail?trainNum=$1 302
 
 
 
