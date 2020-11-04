@@ -41,9 +41,12 @@
 
 ^https:\/\/duckduckgo.com\/\?q=bili\+([^&]+).+ bilibili://search?keyword=$1 302
 
+^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ bilibili://search?keyword=$1 302
+
 
 ^https:\/\/duckduckgo.com\/\?q=taobao\+([^&]+).+ taobao://s.taobao.com/?q=$1 302
 
+^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ taobao://s.taobao.com/?q=$1 302
 
 
 
