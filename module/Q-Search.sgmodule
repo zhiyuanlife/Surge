@@ -36,7 +36,7 @@
 
 ^https:\/\/duckduckgo.com\/\?q=songlink\+([^&]+).+ https://songlink.pro/en/search?keyword=$1 302
 
-^https:\/\/duckduckgo.com\/\?q=sl\+([^&]+).+ https://songlink.pro/en/search?keyword=$1 302
+^https:\/\/duckduckgo.com\/\?q=sl\+([^&]+).+ songlinkpro://search?keyword=$1 302
 
 
 ^https:\/\/duckduckgo.com\/\?q=bili\+([^&]+).+ https://search.bilibili.com/all?keyword=$1 302
