@@ -55,6 +55,7 @@
 
 ^https:\/\/duckduckgo.com\/\?q=gmap\+([^&]+).+ comgooglemaps://?q=$1 302
 
+
 ^https:\/\/duckduckgo.com\/\?q=amap\+([^&]+).+ 
 iosamap://poi?sourceApplication=pin:&name=$1 302
 
