@@ -59,6 +59,8 @@
 ^https:\/\/duckduckgo.com\/\?q=amap\+([^&]+).+ iosamap://poi?sourceApplication=pin:&name=$1 302
 
 
+^https:\/\/duckduckgo.com\/\?q=dida\+([^&]+).+ ticktick://x-callback-url/v1/add_task?title=$1 302
+
 
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
