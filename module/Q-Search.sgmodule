@@ -51,6 +51,8 @@
 ^https:\/\/duckduckgo.com\/\?q=dt\+([^&]+).+ http://ditu.amap.com/search?query=$1 302
 
 
+^https:\/\/duckduckgo.com\/\?q=vq\+([^&]+).+ https://m.v.qq.com/search.html?act=0&keyWord=$1 302
+
 ^https:\/\/duckduckgo.com\/\?q=bmap\+([^&]+).+ baidumap://map/geocoder?address=$1 302
 
 ^https:\/\/duckduckgo.com\/\?q=gmap\+([^&]+).+ comgooglemaps://?q=$1 302
