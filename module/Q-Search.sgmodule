@@ -68,7 +68,9 @@
 
 ^https:\/\/duckduckgo.com\/\?q=weibo\+([^&]+).+ https://s.weibo.com/weibo?q=$1 302
 
+^https:\/\/duckduckgo.com\/\?q=iqiyi\+([^&]+).+ https://so.iqiyi.com/so/q_$1 302
 
+^https:\/\/duckduckgo.com\/\?q=iq\+([^&]+).+ https://so.iqiyi.com/so/q_$1 302
 
 
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
