@@ -30,7 +30,6 @@
 
 ^https:\/\/duckduckgo.com\/\?q=train\+([^&]+).+ http://touch.qunar.com/h5/train/trainDetail?trainNum=$1 302
 
-
 ^https:\/\/duckduckgo.com\/\?q=douban\+([^&]+).+ douban:///search?q=$1 302
 
 
@@ -62,6 +61,18 @@
 
 
 ^https:\/\/duckduckgo.com\/\?q=dida\+([^&]+).+ ticktick://x-callback-url/v1/add_task?title=$1 302
+
+^https:\/\/duckduckgo.com\/\?q=wiki\+([^&]+).+ https://wikipedia.org/wiki/Special:Search/$1 302
+
+^https:\/\/duckduckgo.com\/\?q=zh\+([^&]+).+ http://www.zhihu.com/search?q=$1 302
+
+^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+ https://s.weibo.com/weibo?q=$1 302
+
+^https:\/\/duckduckgo.com\/\?q=weibo\+([^&]+).+ https://s.weibo.com/weibo?q=$1 302
+
+
+
+
 
 
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
