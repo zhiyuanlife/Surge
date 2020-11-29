@@ -3,7 +3,7 @@
 #!system=ios
 
 [URL Rewrite]
-(?<=_region=)CN(?=&) US 307
+(?<=_region=)CN(?=&) HK 307
 (?<=&app_version=)18..(?=.?.?&) 1 307
 (?<=\?version_code=)18..(?=.?.?&) 1 307
 
